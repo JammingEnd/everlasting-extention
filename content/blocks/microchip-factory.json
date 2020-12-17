@@ -1,0 +1,74 @@
+{
+  "type": "GenericCrafter",
+  "name": "microchip factory",
+  "description": "precision building robots create powerful microchips for advanced use. requires a lot of power and cryofluids.",
+  "outputItem": {
+    "item": "microchip",
+    "amount": 1.0
+  },
+  "size": 4,
+  "health": 160,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 3.0,
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 1.0
+    },
+    "items": {
+      "items": [
+        {
+          "item": "copper",
+          "amount": 15
+        },
+        {
+          "item": "titanium",
+          "amount": 10
+        },
+        {
+          "item": "platinum",
+          "amount": 2
+        },
+        {
+          "item": "chip-template",
+          "amount": 1
+        },
+        {
+          "item": "chip",
+          "amount": 1
+        }
+      ]
+    }
+  },
+
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 200
+    },
+    {
+      "item": "silicon",
+      "amount": 100
+    },
+    {
+      "item": "platinum",
+      "amount": 100
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 150
+    }
+  ],
+  "category": "crafting",
+  "research": "chip-builder",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

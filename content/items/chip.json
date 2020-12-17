@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "chip",
+	"description": "hardware for modern structures.",
+	"cost": 2.6,
+	"color": "209020"
+}

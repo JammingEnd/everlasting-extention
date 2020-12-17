@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "microchip",
+	"description": "a special chip for advanced structures and devices.",
+	"cost": 1.2,
+	"color": "209020"
+}

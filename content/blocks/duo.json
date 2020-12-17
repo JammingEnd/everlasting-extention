@@ -1,0 +1,8 @@
+{
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming",
+	}
+}

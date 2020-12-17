@@ -1,0 +1,15 @@
+{
+  "name": "Silver Wall",
+  "description": "A wall made of silver. Not particularly useful or interesting.",
+  "type": "Wall",
+  "health": 4360,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "platinum",
+      "amount": 36
+    }
+  ],
+  "category": "defense",
+  "research": "large-surge-wall"
+}

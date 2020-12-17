@@ -1,0 +1,7 @@
+{
+"type": "material",
+"name": "platinum",
+"description": "a strong material used for heavier constructs.",
+"cost": 3.0,
+"color": "bffff2",
+}

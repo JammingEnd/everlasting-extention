@@ -1,0 +1,50 @@
+{
+  "type": "GenericCrafter",
+  "name": "compound hardener",
+  "description": "combines silicon and plastanium into a chip template.",
+  "outputItem": {
+    "item": "chip-template",
+    "amount": 1.0
+  },
+  "size": 2,
+  "health": 160,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "craftTime": 120,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1.0,
+    "items": {
+      "items": [
+        {
+          "item": "silicon",
+          "amount": 15
+        },
+        {
+          "item": "plastanium",
+          "amount": 10
+        }
+      ]
+    }
+  },
+
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 50
+    },
+    {
+      "item": "silicon",
+      "amount": 40
+    },
+    {
+      "item": "platinum",
+      "amount": 100
+    }
+  ],
+  "category": "crafting",
+  "research": "alloy-smelter",
+  "idleSound": "respawning",
+  "idleSoundVolume": 0.5
+}

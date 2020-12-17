@@ -1,0 +1,39 @@
+{
+	"type": "ItemTurret",
+	"name": "reacher-mk1",
+	"description": "mid-long range defense system.",
+	"health": 1000,
+	"size": 2,
+	"reload": 360,
+	"range": 150,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 1,
+	"rotatespeed": 10,
+	"ammo": {
+		"titanium": {
+			"speed": 6.0,
+			"damage": 230,
+			"bulletWidth": 10,
+			"bulletHeight": 13,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+		"graohite": {
+			"speed": 6.0,
+			"damage": 130,
+			"bulletWidth": 10,
+			"bulletHeight": 13,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4
+		}
+	},
+	"requirements": [
+		{ "item": "chip", "amount": 10 },
+		{ "item": "titanium", "amount": 70 },
+		{ "item": "silicon", "amount": 50} 
+	],
+	"category": "turret",
+	"research": "spectre"
+}
