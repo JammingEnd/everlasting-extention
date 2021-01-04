@@ -1,0 +1,7 @@
+name: "vu"
+displayName: "[cyan]Vanilla Upgraded\n"
+author: "[red]Mesokrix"
+main: "vanilla.VanillaUpgraded"
+"description": "(wip)",
+version: 0.4
+minGameVersion: 105
