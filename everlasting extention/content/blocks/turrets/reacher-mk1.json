@@ -19,7 +19,7 @@
 			"smokeEffect": "shootSmallSmoke",
 			"ammoMultiplier": 2
 		},
-		"graohite": {
+		"graphite": {
 			"speed": 6.0,
 			"damage": 130,
 			"bulletWidth": 10,
