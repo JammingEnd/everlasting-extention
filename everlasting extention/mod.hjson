@@ -1,12 +1,9 @@
-name: everlasting expansion
-displayName: "[red]everlasting [gold]expansion"
-author:
-  '''
-  [purple]JammingEnd
-  '''
-description:
-  '''
- i made a mod becuase i like making mods for my favourite game, although im a horrible spriter, looks isnt everything.
+name: "vu"
+displayName: "[cyan]Vanilla Upgraded\n"
+author: "[red]Mesokrix"
+main: "vanilla.VanillaUpgraded"
+"description": 
+"i made a mod becuase i like making mods for my favourite game, although im a horrible spriter, looks isnt everything.
 
  [red]this mod currently adds;
  1 new unit path (air)
@@ -19,6 +16,6 @@ description:
  [green]please do note that im not the most experienced modder and my agenda is kinda full.
  without further a do, enjoy :)
 
- [gold]more content will be added!
-  '''
+ [gold]more content will be added",
 version: 0.4
+minGameVersion: 105
