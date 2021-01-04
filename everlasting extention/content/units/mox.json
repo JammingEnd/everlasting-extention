@@ -1,0 +1,119 @@
+{
+  "type": "flying",
+  "localizedName": "Mox",
+  "description": "big ship uses big cannons. this bad boi fires a ton of artillary at enemies ovar a pretty decent range. is extremely vunrable.",
+  "speed": 0.25,
+  "accel": 0.5,
+  "flying": true,
+  "range": 65,
+  "hitSize": 288,
+  "health": 500,
+  "armor": 100,
+  "lowAltitude": false,
+  "rotateSpeed": 0.1,
+  "engineOffset": 180,
+  "engineSize": 25,
+  "weapons": [
+    {
+      "name": "artillery container",
+      "x": 0,
+      "y": 175,
+      "rotate": true,
+      "reload": 60,
+      "shootCone": 75,
+      "mirror": false,
+      "shootSound": "beam",
+
+      "recoil": 50,
+      "shotDelay": 60,
+      "bullet": {
+        "sprite": "",
+        "type": "artilleryExplosive",
+        "length": 315,
+        "lifetime": 300,
+        "drawSize": 460,
+        "shootEffect": "railShoot",
+        "shake": 15,
+        "width": 8,
+        "damage": 50,
+        "colors": "DDA63A"
+      }
+    },
+    {
+      "name": "artillery container",
+      "x": 0,
+      "y": 175,
+      "rotate": true,
+      "reload": 60,
+      "shootCone": 75,
+      "mirror": false,
+      "shootSound": "beam",
+
+      "recoil": 50,
+      "shotDelay": 60,
+      "bullet": {
+        "sprite": "",
+        "type": "artilleryExplosive",
+        "length": 315,
+        "lifetime": 300,
+        "drawSize": 460,
+        "shootEffect": "railShoot",
+        "shake": 15,
+        "width": 8,
+        "damage": 50,
+        "colors": "DDA63A"
+      }
+    },
+    {
+      "name": "artillery container",
+      "x": 0,
+      "y": 175,
+      "rotate": true,
+      "reload": 60,
+      "shootCone": 75,
+      "mirror": false,
+      "shootSound": "beam",
+
+      "recoil": 50,
+      "shotDelay": 60,
+      "bullet": {
+        "sprite": "",
+        "type": "artilleryExplosive",
+        "length": 315,
+        "lifetime": 300,
+        "drawSize": 460,
+        "shootEffect": "railShoot",
+        "shake": 15,
+        "width": 8,
+        "damage": 50,
+        "colors": "DDA63A"
+      }
+    },
+    {
+      "name": "artillery container",
+      "x": 0,
+      "y": 175,
+      "rotate": true,
+      "reload": 60,
+      "shootCone": 75,
+      "mirror": false,
+      "shootSound": "beam",
+
+      "recoil": 50,
+      "shotDelay": 60,
+      "bullet": {
+        "sprite": "",
+        "type": "artilleryExplosive",
+        "length": 315,
+        "lifetime": 300,
+        "drawSize": 460,
+        "shootEffect": "railShoot",
+        "shake": 15,
+        "width": 8,
+        "damage": 50,
+        "colors": "DDA63A"
+      }
+    }
+
+  ]
+}
