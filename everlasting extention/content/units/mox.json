@@ -1,5 +1,5 @@
 {
-  "type": "HoverUnit",
+  "type": "flyingUnit",
   "name": "Mox",
   "description": "big ship uses big cannons. this bad boi fires a ton of artillary at enemies ovar a pretty decent range. is extremely vunrable.",
   "speed": 0.25,
