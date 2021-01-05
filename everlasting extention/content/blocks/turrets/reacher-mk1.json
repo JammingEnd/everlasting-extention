@@ -6,7 +6,7 @@
 	"size": 2,
 	"reload": 360,
 	"range": 150,
-	// "ammoUseEffect": "shellEjectBig",
+	"ammoUseEffect": "casing2",
 	"inaccuracy": 1,
 	"rotatespeed": 10,
 	"ammo": {
