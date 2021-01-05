@@ -27,16 +27,18 @@
       "recoil": 50,
       "shotDelay": 60,
       "bullet": {
-        "sprite": "",
-        "type": "artilleryExplosive",
-        "length": 315,
-        "lifetime": 300,
-        "drawSize": 460,
-        "shootEffect": "railShoot",
-        "shake": 15,
-        "width": 8,
+        "hitEffect": "blastExplosion",
         "damage": 50,
-        "colors": "DDA63A"
+        "speed": 7,
+        "knockback": 3,
+        "lifetime": 300,
+        "bulletWidth": 20,
+        "bulletHeight": 23,
+        "bulletSprite": "shell",
+        "backColor": "ffffff",
+        "frontColor": "DDA63A",
+        "shootEffect": "railShoot",
+        "recoil": 50
       }
     },
     {
@@ -52,16 +54,18 @@
       "recoil": 50,
       "shotDelay": 60,
       "bullet": {
-        "sprite": "",
-        "type": "artilleryExplosive",
-        "length": 315,
-        "lifetime": 300,
-        "drawSize": 460,
-        "shootEffect": "railShoot",
-        "shake": 15,
-        "width": 8,
+        "hitEffect": "blastExplosion",
         "damage": 50,
-        "colors": "DDA63A"
+        "speed": 7,
+        "knockback": 3,
+        "lifetime": 300,
+        "bulletWidth": 20,
+        "bulletHeight": 23,
+        "bulletSprite": "shell",
+        "backColor": "ffffff",
+        "frontColor": "DDA63A",
+        "shootEffect": "railShoot",
+        "recoil": 50
       }
     },
     {
@@ -77,16 +81,18 @@
       "recoil": 50,
       "shotDelay": 60,
       "bullet": {
-        "sprite": "",
-        "type": "artilleryExplosive",
-        "length": 315,
-        "lifetime": 300,
-        "drawSize": 460,
-        "shootEffect": "railShoot",
-        "shake": 15,
-        "width": 8,
+        "hitEffect": "blastExplosion",
         "damage": 50,
-        "colors": "DDA63A"
+        "speed": 7,
+        "knockback": 3,
+        "lifetime": 300,
+        "bulletWidth": 20,
+        "bulletHeight": 23,
+        "bulletSprite": "shell",
+        "backColor": "ffffff",
+        "frontColor": "DDA63A",
+        "shootEffect": "railShoot",
+        "recoil": 50
       }
     },
     {
@@ -102,16 +108,18 @@
       "recoil": 50,
       "shotDelay": 60,
       "bullet": {
-        "sprite": "",
-        "type": "artilleryExplosive",
-        "length": 315,
-        "lifetime": 300,
-        "drawSize": 460,
-        "shootEffect": "railShoot",
-        "shake": 15,
-        "width": 8,
+        "hitEffect": "blastExplosion",
         "damage": 50,
-        "colors": "DDA63A"
+        "speed": 7,
+        "knockback": 3,
+        "lifetime": 300,
+        "bulletWidth": 20,
+        "bulletHeight": 23,
+        "bulletSprite": "shell",
+        "backColor": "ffffff",
+        "frontColor": "DDA63A",
+        "shootEffect": "railShoot",
+        "recoil": 50
       }
     }
 
