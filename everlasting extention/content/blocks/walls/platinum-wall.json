@@ -1,6 +1,6 @@
 {
-  "name": "Silver Wall",
-  "description": "A wall made of silver. Not particularly useful or interesting.",
+  "name": "platinum wall",
+  "description": "a wall made out of platinum. much stronger than thorium.",
   "type": "Wall",
   "health": 1200,
   "size": 1,
@@ -11,5 +11,5 @@
     }
   ],
   "category": "defense",
-  "research": "surge-wall"
+  "research": "thorium-wall"
 }
