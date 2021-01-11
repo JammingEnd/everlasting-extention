@@ -1,0 +1,9 @@
+name: dropler
+requirements: [
+lead/300
+microchip/160
+silicon/300
+chip/200
+platinum/600
+]
+research: cyclone
