@@ -6,11 +6,8 @@
     "\\everlasting extention\\content\\blocks",
     "\\everlasting extention\\content\\blocks\\turrets",
     "\\everlasting extention\\content\\items",
-    "\\everlasting extention\\scripts",
-    "\\everlasting extention\\sprites\\blocks",
-    "\\everlasting extention\\sprites\\blocks\\enviroment",
-    "\\everlasting extention\\sprites\\units"
+    "\\everlasting extention\\scripts"
   ],
-  "SelectedNode": "\\everlasting extention\\scripts\\teslaLightning.js",
+  "SelectedNode": "\\everlasting extention\\scripts\\breach.js",
   "PreviewInSolutionExplorer": false
 }

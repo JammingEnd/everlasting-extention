@@ -3,3 +3,4 @@ require("dropler");
 require("platinum");
 require("sawburst");
 require("breach");
+require("voltcoil");
