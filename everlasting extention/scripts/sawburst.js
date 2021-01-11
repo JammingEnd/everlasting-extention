@@ -10,7 +10,7 @@ const shotgunHit = new Effect(35, e => {
 });
 
 const shotgunBasicBullet = extend(BasicBulletType, {});
-shotgunBasicBullet.despawnEffect = shotgunHit2;
+shotgunBasicBullet.despawnEffect = shotgunHit;
 shotgunBasicBullet.hitEffect = shotgunBasicBullet.despawnEffect;
 shotgunBasicBullet.backColor = Color.valueOf("bf8300");
 shotgunBasicBullet.width = 4;
