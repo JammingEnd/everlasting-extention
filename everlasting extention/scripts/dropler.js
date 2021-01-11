@@ -20,7 +20,7 @@ droplerBasicBullet.shrinkX = 0.2;
 droplerBasicBullet.spin = 3.5;
 droplerBasicBullet.damage = 35;
 droplerBasicBullet.shootEffect = Fx.railShoot;
-droplerBasicBullet.hitColor = droplerBullet.frontColor = Color.valueOf("f1fc58");
+droplerBasicBullet.hitColor = Vars.mobile ? Color.valueOf("030e1f") : Color.valueOf("6294e3");
 droplerBasicBullet.lifetime = 90;
 droplerBasicBullet.knockback = 1;
 
@@ -41,4 +41,5 @@ dropler.buildVisibility = BuildVisibility.shown;
 dropler.category = Category.turret;
 dropler.ammo(
 	Vars.content.getByName(ContentType.item, "everlasting-extention-platinum"), droplerBasicBullet
+	//items.surge-alloy, droplerBasicBullet
 );

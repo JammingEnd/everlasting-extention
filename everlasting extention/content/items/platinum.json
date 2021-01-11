@@ -1,6 +1,4 @@
 {
 "name": "platinum",
-"description": "a strong material used for heavier constructs.",
-"cost": 5.0,
-"color": "bffff2"
+"research": "thorium"
 }
