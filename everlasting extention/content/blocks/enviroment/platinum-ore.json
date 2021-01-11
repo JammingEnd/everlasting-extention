@@ -1,5 +1,5 @@
 {
-  "type": "OreBlock",
+  "type": "oreBlock",
   "itemDrop": "platinum",
   "playerUnmineable": true,
   "variant": 3

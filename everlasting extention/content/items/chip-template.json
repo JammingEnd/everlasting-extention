@@ -1,5 +1,4 @@
 {
-	"type": "recourse",
 	"name": "chip template",
 	"description": "the base component for the chip/microchip.",
 	"cost": 2.5,

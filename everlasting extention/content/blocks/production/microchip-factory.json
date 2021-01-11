@@ -68,7 +68,5 @@
     }
   ],
   "category": "crafting",
-  "research": "chip-builder",
-  "idleSound": "respawning",
-  "idleSoundVolume": 0.5
+  "research": "chip-builder"
 }

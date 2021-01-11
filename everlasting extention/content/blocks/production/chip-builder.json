@@ -39,7 +39,5 @@
 		{ "item": "silicon", "amount": 70}
 	],
 	"category": "crafting",
-	"research": "compound-hardener",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5 
+	"research": "compound-hardener"
 }
