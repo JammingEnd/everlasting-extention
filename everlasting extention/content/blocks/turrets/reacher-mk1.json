@@ -9,26 +9,28 @@
 	"ammoUseEffect": "casing2",
 	"inaccuracy": 1,
 	"rotatespeed": 10,
-	"ammo": {
-		"titanium": {
-			"speed": 6.0,
-			"damage": 230,
-			"bulletWidth": 10,
-			"bulletHeight": 13,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
-		},
-		"graphite": {
-			"speed": 6.0,
-			"damage": 130,
-			"bulletWidth": 10,
-			"bulletHeight": 13,
-			"shootEffect": "shootSmall",
-			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 4
+	"ammo": [
+		{
+			"titanium": {
+				"speed": 6.0,
+				"damage": 230,
+				"bulletWidth": 10,
+				"bulletHeight": 13,
+				"shootEffect": "shootSmall",
+				"smokeEffect": "shootSmallSmoke",
+				"ammoMultiplier": 2
+			},
+			"graphite": {
+				"speed": 6.0,
+				"damage": 130,
+				"bulletWidth": 10,
+				"bulletHeight": 13,
+				"shootEffect": "shootSmall",
+				"smokeEffect": "shootSmallSmoke",
+				"ammoMultiplier": 4
+			}
 		}
-	},
+	],
 	"requirements": [
 		{ "item": "chip", "amount": 10 },
 		{ "item": "titanium", "amount": 70 },
