@@ -1,0 +1,29 @@
+  type: GenericCrafter
+  name: Compound Hardener
+  description: "Combines silicon and plastanium into a chip template."
+  size: 2
+  health: 160
+  hasPower: true
+  hasLiquids: false
+  hasItems: true
+  craftTime: 120
+  updateEffect: smeltsmoke
+  consumes: {
+    power": 1.0,
+    items: {
+      items: [
+       silicon/15
+       plastanium/10
+      ]
+    }
+  }
+  outputItem: chip-template
+  requirements: [
+    lead/50
+    silicon/40
+    platinum/100
+    ]
+  category: crafting
+  research: alloy-smelter
+  idleSound: respawning
+  idleSoundVolume: 0.5
