@@ -23,7 +23,6 @@
       "shootCone": 75,
       "mirror": false,
       "shootSound": "beam",
-
       "recoil": 50,
       "shotDelay": 60,
       "bullet": {
