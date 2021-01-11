@@ -11,7 +11,7 @@ const shotgunHit = new Effect(35, e => {
 
 const shotgunBasicBullet2 = extend(BasicBulletType, {});
 shotgunBasicBullet2.despawnEffect = shotgunHit;
-shotgunBasicBullet2.hitEffect = droplerBasicBullet.despawnEffect;
+shotgunBasicBullet2.hitEffect = shotgunBasicBullet2.despawnEffect;
 shotgunBasicBullet2.backColor = Color.valueOf("bf8300");
 shotgunBasicBullet2.width = 4;
 shotgunBasicBullet2.height = 6;
@@ -22,11 +22,11 @@ shotgunBasicBullet2.damage = 20;
 shotgunBasicBullet2.speed = 3.6;
 shotgunBasicBullet2.shootEffect = Fx.rocketSmokeLarge;
 shotgunBasicBullet2.hitColor = Vars.mobile ? Color.valueOf("bf8300") : Color.valueOf("db9702");
-shotgunBasicBullet2.lifetime = 40;
-shotgunBasicBullet2.knockback = 0;
+shotgunBasicBullet2.lifetime = 80;
+shotgunBasicBullet2.knockback = 2;
 
 
-const breach = extendContent(ItemTurret, "sawburst", {
+const breach = extendContent(ItemTurret, "breach", {
 	init() {
 		this.super$init();
 
@@ -35,16 +35,16 @@ const breach = extendContent(ItemTurret, "sawburst", {
 	}
 });
 breach.health = 1950;
-breach.size = 2;
+breach.size = 4;
 breach.rotateSpeed = 15;
 breach.inaccuracy = 17;
-breach.shots = 12;
+breach.shots = 14;
 breach.reloadTime = 20;
 breach.hasItems = true;
 breach.hasLiquids = true;
-breach.range = 120;
+breach.range = 170;
 breach.localizedName = "breach";
-breach.description = "fires a a burst of shotgun bullets. fbi open up!";
+breach.description = "fires an automatic spray of shotgun bullets. fbi open up!";
 breach.buildVisibility = BuildVisibility.shown;
 // dropler.requirements = ItemStack.with(Items.titanium, 560, Vars.content.getByName(ContentType.item, "everlasting-extention-microchip"), 200, Items.silicon, 400, Vars.content.getByName(ContentType.item, "everlasting-extention-platinum"), 160);
 sawburst.category = Category.turret;
