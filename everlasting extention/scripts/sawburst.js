@@ -1,12 +1,12 @@
 // JavaScript source code
 const shotgunHit = new Effect(35, e => {
-	Draw.color(Color.valueOf("91bcff"), Color.valueOf("6589bf"), e.fin());
+	Draw.color(Color.valueOf("f7c52d"), Color.valueOf("bf9002"), e.fin());
 	Draw.alpha(e.fout());
-	Fill.circle(e.x, e.y, e.fout() * 15.0);
+	Fill.circle(e.x, e.y, e.fout() * 2.0);
 
-	draw.color(valueOf("d9d218"), color.valueOf("f7a32d"), e.fin());
+	/* draw.color(valueOf("d9d218"), color.valueOf("f7a32d"), e.fin());
 	stroke(2 * e.fout());
-	lines.line(e.x, e.y, mathf.random(x, y), e.fout());
+	lines.line(e.x, e.y, mathf.random(x, y), e.fout()); */
 });
 
 const shotgunBasicBullet = extend(BasicBulletType, {});
