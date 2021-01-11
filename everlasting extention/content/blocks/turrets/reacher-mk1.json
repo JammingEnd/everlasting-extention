@@ -4,11 +4,11 @@
 	"description": "mid-long range defense system.",
 	"health": 1000,
 	"size": 2,
-	"reload": 360,
+	"reloadTime": 360,
 	"range": 150,
 	"ammoUseEffect": "casing2",
 	"inaccuracy": 1,
-	"rotatespeed": 10,
+	"rotateSpeed": 10,
 	"ammo": [
 		{
 			"titanium": {
