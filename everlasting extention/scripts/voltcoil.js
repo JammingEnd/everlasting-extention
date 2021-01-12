@@ -3,7 +3,7 @@ telsaBullet.sapStrength = 0.48;
 telsaBullet.length = 55;
 telsaBullet.damage = 5;
 telsaBullet.shootEffect = Fx.lancerLaserChargeBegin;
-telsaBullet.hitColor = telsaBullet.color = Color.valueOf("fbff9e");
+telsaBullet.hitColor = telsaBullet.color = Color.valueOf("a245d0");
 telsaBullet.despawnEffect = Fx.railHit;
 telsaBullet.width = 3;
 telsaBullet.lifetime = 45;
@@ -16,7 +16,7 @@ telsaBullet.lightningDamage = 5;//lightning damage
 telsaBullet.lightningAngle = 8;//angle of direction of lightning relative to the angle of the bullet
 telsaBullet.lightningCone = 10;//lightning angle randomization
 telsaBullet.largeHit = true;
-telsaBullet.lightColor = telsaBullet.lightningColor = Color.valueOf("fbff9e");
+telsaBullet.lightColor = telsaBullet.lightningColor = Color.valueOf("8432ac");
 
 const voltcoil = extendContent(PowerTurret, "volcoil", {});
 voltcoil.size = 2;

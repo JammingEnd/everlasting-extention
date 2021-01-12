@@ -4,9 +4,9 @@ const shotgunHit = new Effect(35, e => {
 	Draw.alpha(e.fout());
 	Fill.circle(e.x, e.y, e.fout() * 2.0);
 
-	/* draw.color(valueOf("d9d218"), color.valueOf("f7a32d"), e.fin());
+	color(valueOf("d9d218"), color.valueOf("f7a32d"), e.fin());
 	stroke(2 * e.fout());
-	lines.line(e.x, e.y, mathf.random(x, y), e.fout()); */
+	lines.line(e.x, e.y, mathf.random(x, y), e.fout()); 
 });
 
 const shotgunBasicBullet = extend(BasicBulletType, {});
