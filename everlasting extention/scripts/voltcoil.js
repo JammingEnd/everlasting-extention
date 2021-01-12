@@ -1,8 +1,8 @@
 const telsaBullet = extend(LightningBulletType, {});
 telsaBullet.sapStrength = 0.48;
 telsaBullet.length = 55;
-telsaBullet.damage = 5;
-telsaBullet.shootEffect = Fx.lancerLaserChargeBegin;
+telsaBullet.damage = 1;
+telsaBullet.shootEffect = Fx.sapExplosion;
 telsaBullet.hitColor = telsaBullet.color = Color.valueOf("a245d0");
 telsaBullet.despawnEffect = Fx.railHit;
 telsaBullet.width = 3;
@@ -12,13 +12,14 @@ telsaBullet.collideAir = true;
 telsaBullet.lightning = 3;//number of lightning
 telsaBullet.lightningLength = 2;//length of lighning
 telsaBullet.lightningLengthRand = 10;//a random number from 0 to 15 will be added to the length of the lightning, that is, randomization of the length
-telsaBullet.lightningDamage = 5;//lightning damage
+telsaBullet.lightningDamage = 2;//lightning damage
 telsaBullet.lightningAngle = 8;//angle of direction of lightning relative to the angle of the bullet
 telsaBullet.lightningCone = 10;//lightning angle randomization
 telsaBullet.largeHit = true;
 telsaBullet.lightColor = telsaBullet.lightningColor = Color.valueOf("8432ac");
 
-const voltcoil = extendContent(PowerTurret, "volcoil", {});
+const voltcoil = extendContent(PowerTurret, "voltcoil", {});
+voltcoil.shootType = telsaBullet;
 voltcoil.size = 2;
 voltcoil.rotateSpeed = 15;
 voltcoil.inaccuracy = 17;

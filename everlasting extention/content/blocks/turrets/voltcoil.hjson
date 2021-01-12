@@ -1,0 +1,11 @@
+name: voltcoil
+consumes: {
+    power: 4.2
+    }
+requirements: [
+lead/300
+graphite/20
+copper/300
+metaglass/40
+]
+research: salvo

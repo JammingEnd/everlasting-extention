@@ -1,0 +1,11 @@
+name: breach
+requirements: [
+lead/200
+graphite/300
+copper/500
+silicon/400
+chip/120
+microchip/70
+platinum/80
+]
+research: sawburst

@@ -5,9 +5,8 @@
     "\\everlasting extention\\content",
     "\\everlasting extention\\content\\blocks",
     "\\everlasting extention\\content\\blocks\\turrets",
-    "\\everlasting extention\\content\\items",
     "\\everlasting extention\\scripts"
   ],
-  "SelectedNode": "\\everlasting extention\\scripts\\voltcoil.js",
+  "SelectedNode": "\\everlasting extention\\content\\blocks\\turrets\\reacher-mk1.json",
   "PreviewInSolutionExplorer": false
 }

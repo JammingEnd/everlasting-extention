@@ -1,0 +1,9 @@
+name: sawburst
+requirements: [
+lead/70
+graphite/90
+copper/80
+silicon/300
+chip/60
+]
+research: salvo
