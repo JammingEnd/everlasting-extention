@@ -1,4 +1,3 @@
-// JavaScript source code
 const shotgunHit = new Effect(35, e => {
 	Draw.color(Color.valueOf("f7c52d"), Color.valueOf("bf9002"), e.fin());
 	Draw.alpha(e.fout());
@@ -18,7 +17,7 @@ const shotgunHit = new Effect(35, e => {
 });
 
 const shotgunBasicBullet = extend(BasicBulletType, {});
-shotgunBasicBullet.despawnEffect = shotgunHit;
+shotgunBasicBullet.despawnEffect = shotgunHit;       //the effect
 shotgunBasicBullet.hitEffect = shotgunBasicBullet.despawnEffect;
 shotgunBasicBullet.backColor = Color.valueOf("bf8300");
 shotgunBasicBullet.width = 4;
@@ -34,25 +33,27 @@ shotgunBasicBullet.lifetime = 40;
 shotgunBasicBullet.knockback = 0;
 
 
-const sawburst = extendContent(ItemTurret, "sawburst", {
-	init() {
-		this.super$init();
+const sawburst = extendContent(ItemTurret, "sawburst", {  //type and name
+	init() {                             //in it <_<
+		this.super$init();               //something >_>
 
 		this.ammo(
-			Vars.content.getByName(ContentType.item, "everlasting-extention-platinum"), shotgunBasicBullet);
+			Vars.content.getByName(ContentType.item, "everlasting-extention-platinum"), shotgunBasicBullet);  //ammo and bulletType allocation 
 	}
 });
-sawburst.health = 1950;
+sawburst.health = 1950;                 //your normal json stats
 sawburst.size = 2;
 sawburst.rotateSpeed = 15;
 sawburst.inaccuracy = 17;
 sawburst.shots = 17;
 sawburst.reloadTime = 50;
+sawburst.hasPower = false      //i define the amount of power used in a hjson 
 sawburst.hasItems = true;
 sawburst.hasLiquids = true;
 sawburst.range = 120;
-sawburst.localizedName = "sawburst";
+sawburst.localizedName = "sawburst";                   //the same name 
 sawburst.description = "short range shotgun turrect, fires alot of bullets at once.";
-sawburst.buildVisibility = BuildVisibility.shown;
+sawburst.buildVisibility = BuildVisibility.shown;     //shows visibilty when building 
 // dropler.requirements = ItemStack.with(Items.titanium, 560, Vars.content.getByName(ContentType.item, "everlasting-extention-microchip"), 200, Items.silicon, 400, Vars.content.getByName(ContentType.item, "everlasting-extention-platinum"), 160);
+//requirements can be, and i advice to put it in  a hjson
 sawburst.category = Category.turret;

@@ -1,15 +1,13 @@
-// JavaScript source code
 const shotgunHit = new Effect(35, e => {
 	Draw.color(Color.valueOf("f7c52d"), Color.valueOf("bf9002"), e.fin());
 	Draw.alpha(e.fout());
 	Fill.circle(e.x, e.y, e.fout() * 1.2);
 
-
 	Draw.color(Color.valueOf("d9d218"), Color.valueOf("f7a32d"), e.fin());
 	const hj = new Floatc2({
 		get: function (x, y) {
 			const ang = Mathf.angle(x, y);
-			Lines.stroke(4 * e.fout());
+			Lines.stroke(2 * e.fout());
 			Lines.lineAngle(e.x + x, e.y + y, ang, e.fout());
 			Lines.stroke(1);
 		}
@@ -17,6 +15,7 @@ const shotgunHit = new Effect(35, e => {
 	Angles.randLenVectors(e.id, 4, e.finpow() * 2, e.rotation, 180, hj);
 	Draw.color();
 });
+
 
 
 const shotgunBasicBullet2 = extend(BasicBulletType, {});

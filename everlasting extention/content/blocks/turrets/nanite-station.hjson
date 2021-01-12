@@ -1,0 +1,9 @@
+name: nanite station
+requirements: [
+lead/3000
+microchip/200
+silicon/500
+chip/200
+platinum/600
+]
+research: mend-projector

@@ -1,11 +1,9 @@
-// JavaScript source code
-
-
 const droplerAoe = new Effect(35, e => {
 	Draw.color(Color.valueOf("91bcff"), Color.valueOf("6589bf"), e.fin());
 	Draw.alpha(e.fout());
 	Fill.circle(e.x, e.y, e.fout() * 30.0);
 });
+
 
 const droplerBasicBullet = extend(BasicBulletType, {});
 droplerBasicBullet.despawnEffect = droplerAoe;
