@@ -1,4 +1,4 @@
-/* module.exports = {
+
 	const shotgunHit = new Effect(35, e => {
 		Draw.color(Color.valueOf("f7c52d"), Color.valueOf("bf9002"), e.fin());
 		Draw.alpha(e.fout());
@@ -37,5 +37,9 @@
 			Draw.alpha(e.fout());
 			Fill.circle(e.x, e.y, e.fout() * 30.0);
 		});
+module.exports = {
+	shotgunHit: shotgunHit,
+	naniteWave: naniteWave,
+	synthHit: synthHit,
+	droplerAoe: droplerAoe
 }
-*/ 

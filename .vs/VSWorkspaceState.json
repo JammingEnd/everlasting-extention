@@ -5,8 +5,11 @@
     "\\everlasting extention\\content",
     "\\everlasting extention\\content\\blocks",
     "\\everlasting extention\\content\\blocks\\turrets",
-    "\\everlasting extention\\scripts"
+    "\\everlasting extention\\scripts",
+    "\\everlasting extention\\sprites",
+    "\\everlasting extention\\sprites\\blocks",
+    "\\everlasting extention\\sprites\\blocks\\turrets"
   ],
-  "SelectedNode": "\\everlasting extention\\content\\blocks\\turrets\\dropler.hjson",
+  "SelectedNode": "\\everlasting extention\\scripts\\volliage.js",
   "PreviewInSolutionExplorer": false
 }

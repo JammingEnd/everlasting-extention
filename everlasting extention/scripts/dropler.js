@@ -1,12 +1,7 @@
-const droplerAoe = new Effect(35, e => {
-	Draw.color(Color.valueOf("91bcff"), Color.valueOf("6589bf"), e.fin());
-	Draw.alpha(e.fout());
-	Fill.circle(e.x, e.y, e.fout() * 30.0);
-});
-
+const effects = require("everlasting extention/effects");
 
 const droplerBasicBullet = extend(BasicBulletType, {});
-droplerBasicBullet.despawnEffect = droplerAoe;
+droplerBasicBullet.despawnEffect = effects.droplerAoe;
 droplerBasicBullet.hitEffect = droplerBasicBullet.despawnEffect;
 droplerBasicBullet.splashDamageRadius = 28; //1 tile is 8
 droplerBasicBullet.splashDamage = 40;
