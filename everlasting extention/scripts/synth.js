@@ -1,4 +1,4 @@
-const effects = require("everlasting extention/effects");
+const effects = require("everlasting-extention/effects");
 
 const telsaBullet2 = extend(LightningBulletType, {});
 telsaBullet2.sapStrength = 0.48;

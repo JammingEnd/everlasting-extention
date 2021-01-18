@@ -37,6 +37,25 @@
 			Draw.alpha(e.fout());
 			Fill.circle(e.x, e.y, e.fout() * 30.0);
 		});
+
+const stun = extend(StatusEffect, "stun", {
+	update(unit, time) {
+		this.super$update(unit, time);
+		let unitHpCurrent = unit.health / unit.maxHealth;
+		if (unitHpCurrent > 0.5) {
+			unit.speed = 0;
+		}
+		else if (unitHpCurrent < 0.05) {
+			unit.remove();
+			unit.destroy();
+			unit.damageContinuousPierce(unit.maxHealth);
+		},
+	}
+});
+stun.damage = 0;
+stun.effect = stunFx;
+
+
 module.exports = {
 	shotgunHit: shotgunHit,
 	naniteWave: naniteWave,

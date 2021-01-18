@@ -21,7 +21,7 @@ telsaBullet.lightColor = telsaBullet.lightningColor = Color.valueOf("8432ac");
 const volliage = extendContent(PowerTurret, "volliage", {});
 volliage.shootType = telsaBullet;
 volliage.size = 2;
-volliage.rotateSpeed = 15;hitFuse
+volliage.rotateSpeed = 15;
 volliage.inaccuracy = 17;
 volliage.shots = 12;
 volliage.reloadTime = 5;

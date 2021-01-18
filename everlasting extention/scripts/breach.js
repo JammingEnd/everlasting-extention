@@ -1,4 +1,4 @@
-const effects = require("everlasting extention/effects");
+const effects = require("everlasting-extention/effects");
 
 
 const shotgunBasicBullet2 = extend(BasicBulletType, {});
