@@ -1,0 +1,48 @@
+{
+"type": "GenericCrafter",
+	"name": "chip builder",
+	"description": "crafts chips.",
+	"outputItem": {"item": "metal-eating-organism", "amount": 1.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true, 
+	"craftTime": 80,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{
+					"item": "spore-pod",
+					"amount": 3
+				},
+				{
+					"item": "bottled-oxygen",
+					"amount": 2
+				}
+			]
+		}
+	},
+
+	"requirements": [
+		{
+			"item": "lead",
+			"amount": 100
+		},
+		{
+			"item": "titanium",
+			"amount": 100
+		},
+		{
+			"item": "metaglass",
+			"amount": 200
+		},
+		{
+			"item": "silicon",
+			"amount": 50
+		}
+	],
+	"category": "crafting",
+	"research": "blast-mixer"
+}

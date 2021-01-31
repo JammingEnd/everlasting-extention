@@ -1,0 +1,7 @@
+{
+	"name": "bottled-hydrogen ",
+	"description": "flammable gas stored in a bottle.",
+	"cost": 1.0,
+	"flammability": 200,
+	"color": "b7edec"
+}

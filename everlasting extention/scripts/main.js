@@ -7,3 +7,5 @@ require("volliage");
 require("synth");
 require("nanite-station");
 require("mod");
+require("metal-eating-organism");
+// require("sigma");

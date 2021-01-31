@@ -4,13 +4,13 @@
     "\\everlasting extention",
     "\\everlasting extention\\content",
     "\\everlasting extention\\content\\blocks",
-    "\\everlasting extention\\content\\blocks\\production",
     "\\everlasting extention\\content\\blocks\\turrets",
     "\\everlasting extention\\scripts",
+    "\\everlasting extention\\scripts\\libs",
     "\\everlasting extention\\sprites",
     "\\everlasting extention\\sprites\\blocks",
     "\\everlasting extention\\sprites\\blocks\\enviroment"
   ],
-  "SelectedNode": "\\everlasting extention\\content\\blocks\\turrets\\reacher-mk1.json",
+  "SelectedNode": "\\everlasting extention\\scripts\\sawburst.js",
   "PreviewInSolutionExplorer": false
 }
