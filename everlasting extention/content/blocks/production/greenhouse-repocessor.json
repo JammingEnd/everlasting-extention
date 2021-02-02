@@ -1,7 +1,7 @@
 {
 "type": "GenericCrafter",
 	"name": "chip builder",
-	"description": "crafts chips.",
+	"description": "grows spores and pure oxygen into metal eating organisms.",
 	"outputItem": {"item": "metal-eating-organism", "amount": 1.0},
 	"size": 2,
 	"hasPower": true,

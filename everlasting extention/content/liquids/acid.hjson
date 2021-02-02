@@ -1,0 +1,9 @@
+name: acid
+description: a dangerous water-like liquid.
+temperature: 55
+flammability: 0
+heatCapacity: 0
+explosiveness: 0
+viscosity: 0.5
+color: "049110"
+research: slag

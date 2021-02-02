@@ -1,39 +1,34 @@
 const effects = require("everlasting-extention/effects");
 
-const stun = extend(StatusEffect, "stun", {
-	update(unit, time) {
-		this.super$update(unit, 3);
-		let unitHpCurrent = unit.health / unit.maxHealth;
-		if(unitHpCurrent > 0.5) {
-			unit.speed = 0;
+const sigmaChargeFx = new Effect(lifetime, e => {
+	Draw.color(color.valueOf("00ddff"), color.valueOf("2fc0d6"), e.fin());
+	const hj = new Floatc2({
+		get: function (a, b) {
+			const ang = Mathf.angle(a, b);
+			let l = 2 * 0.01
+			Lines.stroke(1.3);
+			Lines.swirl(e.x, e.y, e.fout() * 2, l, ang * e.fout() * 1.5);
+			Lines.stroke(1);
 		}
-		else if (unitHpCurrent < 0.05) {
-			unit.remove();
-			unit.destroy();
-			unit.damageContinuousPierce(unit.maxHealth);
-		}
-
-	},
-	update(unit) {
-		this.super$update(unit);
-		unit.speed = 100;
-	},
+	});
+	Angles.randLenVectors(e.id, 1, 2, e.rotation, 360, hj);
+	Draw.color();
 });
-
+return sigmaChargeFx;
 
 const stunFx = new Effect(1, e => {
-	Draw.color(color.valueOf(""), color.valueOf(""), e.fin());
+	Draw.color(color.valueOf("00ddff"), color.valueOf("2fc0d6"), e.fin());
 	Lines.stroke(1);
 	Lines.circle(e.x, e.y, 2 + e.fout() * 3);
 	Draw.color();
 	Lines.stroke(1);
 });
-stun.damage = 0;
-stun.effect = stunFx;
 
 const sigmaBullet = extend(BasicBulletType, {});
-sigmaBullet.StatusEffect = stun;
-sigmaBullet.despawnEffect = effects.shotgunHit;       //the effect
+sigmaBullet.StatusEffect = unmoving;
+unmoving.effect = stunFx;
+unmoving.damage = 5;
+sigmaBullet.despawnEffect = effects.sigmaHit;       //the effect
 sigmaBullet.hitEffect = sigmaBullet.despawnEffect;
 sigmaBullet.backColor = Color.clear;
 sigmaBullet.width = 4;
@@ -58,7 +53,8 @@ sigma.reloadTime = 4;
 sigma.hasPower = true;
 sigma.hasItems = false;
 sigma.hasLiquids = true;
-sigma.chargeTime = ;
+sigma.chargeTime = 120;
+sigma.chargeEffect = sigmaChargeFx;
 sigma.range = 300;
 sigma.localizedName = "sigma";
 sigma.description = "rains down a powerful lightningstrike from the skies, stunning enemies on hit.";

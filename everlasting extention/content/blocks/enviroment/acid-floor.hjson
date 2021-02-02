@@ -1,0 +1,12 @@
+type: Floor
+name: acid
+isLiquid: true
+variants: 1
+blendGroup: water
+cacheLayer: tar
+speedMultiplier: 0.5
+liquidDrop: acid 
+statusDuration: 240
+drownTime: 90
+walkEffect: melting
+drownUpdateEffect: burning

@@ -1,0 +1,31 @@
+
+  type: ImpactReactor
+  name: "fusion reactor"
+  description: "the collision of hydrogen molecules produce an absurd amount of power."
+  size: 6
+  hasPower: true
+  hasLiquids: false
+  hasItems: true
+  itemCapacity: 30
+  itemDuration: 30
+  powerProduction: 400
+  plasmas: 3
+  consumes: {
+    power: 9
+    items: {
+      items: [
+        bottled-hydrogen/2
+      ]
+    }
+  }
+  requirements: [
+    metaglass/500
+    platinum/800
+    silicon/2000
+    graphite/400
+    plastanium/200
+    titanium/800
+    lead/5000
+  ]
+  category: power
+  research: impact-reactor

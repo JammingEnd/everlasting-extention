@@ -2,5 +2,7 @@
 	"name": "bottled-hydrogen ",
 	"description": "pure oxygen that is stored in a bottle.",
 	"cost": 1.0,
-	"color": "e1f5f4"
+	"color": "e1f5f4",
+	"research": "metaglass"
+
 }
